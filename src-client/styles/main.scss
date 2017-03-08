@@ -1,10 +1,9 @@
+@import "./_bootstrap.min.scss";
+
 * {
 	box-sizing: border-box;
 }
 
-body{
-	font-family: Helvetica;
-}
 
 img {
 	width: 100%;
@@ -14,5 +13,5 @@ img {
 h1{
 	text-align: center;
 	font-size: 10vw;
-	color: #2574A9;	
+	color: red;
 }
