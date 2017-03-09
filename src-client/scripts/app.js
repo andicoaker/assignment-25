@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom'
 import React from 'react'
 import Backbone from 'backbone'
 
-// ReactDOM.render(<h1>boo yah!</h1>, document.querySelector('#app-container'))
+import {WelcomeView} from './views/view-welcome.js'
 
 
 const AppRouter = Backbone.Router.extend({
@@ -18,7 +18,7 @@ const AppRouter = Backbone.Router.extend({
   },
 
   showChirpsComponent: function(){
-    ReactDOM.render(<h1>Chirps</h1>, document.querySelector('#app-container'))
+    ReactDOM.render(<h1>Chirps</h1>, WelcomeView, document.querySelector('#app-container'))
   },
 
   showLoginComponent: function(){
@@ -33,7 +33,7 @@ const AppRouter = Backbone.Router.extend({
     ReactDOM.render(<h1>Welcome</h1>, document.querySelector('#app-container'))
   },
 
-)}
+})
 
 new AppRouter()
 

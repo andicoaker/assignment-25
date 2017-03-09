@@ -7,8 +7,8 @@ export const LoginComponent = React.createClass({
     return (
 
       <header>
-        <h1>Chirp! Returning User Login</h1>
         <img>Insert chirp birdie img here!</img>
+        <h1>Chirp! Returning User Login</h1>
       </header>
       <hr/>
       <form className="form-horizontal">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const LoginComponent = React.createClass({
+export const NewChirpComponent = React.createClass({
 
   render: function(){
 
